@@ -69,7 +69,7 @@ void get() {
     bool patientFound = false;
     for (int i = 0; i < x.size(); ++i) {
         if (v == x[i]) {
-            cout << "Next patient is: " << y[i] <<" please go with the DR" endl;
+            cout << "Next patient is: " << y[i] <<" please go with the DR"<< endl;
             // Remove the patient once retrieved
             x.erase(x.begin() + i);
             y.erase(y.begin() + i);
